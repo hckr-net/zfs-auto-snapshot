@@ -1,4 +1,5 @@
 #!/bin/sh
+PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin"
 
 # Only call zfs-auto-snapshot if it's available
 which zfs-auto-snapshot > /dev/null || exit 0
